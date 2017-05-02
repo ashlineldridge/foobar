@@ -1,0 +1,7 @@
+apply plugin: 'application'
+
+mainClassName = 'foobar.Main'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.5'
+}
