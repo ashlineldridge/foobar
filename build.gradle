@@ -1,6 +1,8 @@
 apply plugin: 'application'
 
 mainClassName = 'foobar.Main'
+startScripts.applicationName = 'foobar'
+distTar.archiveName = "foobar.${distTar.extension}"
 
 task wrapper(type: Wrapper) {
     gradleVersion = '3.5'
